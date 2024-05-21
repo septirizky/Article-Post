@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "9e796400-f788-4dd2-a797-b7dd028d2d26",
+		"name": "Article",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7425305"
+	},
+	"item": [
+		{
+			"name": "/article/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/article",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"article"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/article/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"Cara Mengatasi Pencemaran Tanah dan Panduannya\",\r\n        \"content\": \"Penting sekali untuk mengetahui cara mengatasi pencemaran tanah di era modern. Ini mengingat kondisi lingkungan kita yang semakin tercemar, terancam oleh pencemaran tanah, yang mencapai tingkat memprihatinkan. Data terbaru menunjukkan bahwa sebagian besar wilayah di seluruh dunia menghadapi masalah serius akibat pencemaran tanah. Pencemaran tanah sendiri dapat menimbulkan gangguan terhadap kesehatan manusia, bahkan di tingkat yang sangat berbahaya. Beberapa dampak pencemaran tanah bisa menimbulkan beberapa penyakit jangka pendek sampai panjang. Selain pada kesehatan manusia, pencemaran tanah juga berdampak pada ekosistem, baik flora maupun fauna di sekitar kita.\",\r\n        \"category\": \"Lingkungan\",\r\n        \"status\": \"draft\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/article",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"article"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/article/<id>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/article/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"article",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/article/<id>",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"title\": \"Cara Mengatasi Pencemaran Tanah dan Panduannaaaaaaaaaaaaaaaaaaaaasasasasasasaya\",\r\n        \"content\": \"aaaaaaaaaaaaaaaaaaaaaPenting sekali untuk mengetahui cara mengatasi pencemaran tanah di era modern. Ini mengingat kondisi lingkungan kita yang semakin tercemar, terancam oleh pencemaran tanah, yang mencapai tingkat memprihatinkan. Data terbaru menunjukkan bahwa sebagian besar wilayah di seluruh dunia menghadapi masalah serius akibat pencemaran tanah. Pencemaran tanah sendiri dapat menimbulkan gangguan terhadap kesehatan manusia, bahkan di tingkat yang sangat berbahaya. Beberapa dampak pencemaran tanah bisa menimbulkan beberapa penyakit jangka pendek sampai panjang. Selain pada kesehatan manusia, pencemaran tanah juga berdampak pada ekosistem, baik flora maupun fauna di sekitar kita.\",\r\n        \"category\": \"Lingku\",\r\n        \"status\": \"draft\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/article/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"article",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/article/<id>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/article/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"article",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
